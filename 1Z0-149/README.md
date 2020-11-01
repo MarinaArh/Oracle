@@ -3,9 +3,16 @@ https://docs.oracle.com/en/database/oracle/oracle-database/19/lnpls/index.html
 https://education.oracle.com/oracle-database-19c-program-with-pl-sql/pexam_1Z0-149
 
  **1. Declaring PL/SQL Variables**
-* [Recognize valid and invalid identifiers](https://github.com/MarinaArh/Oracle_cheat_sheets/blob/master/1Z0-149/identifiers.sql)
-* [List the uses of variables](https://github.com/MarinaArh/Oracle_cheat_sheets/blob/master/1Z0-149/WhereIsVariablesUsed.sql), [declare and initialize variables](), use bind variables
-* List and describe various data types using the [%TYPE](https://github.com/MarinaArh/Oracle_cheat_sheets/blob/master/1Z0-149/TypeAttribute.sql) and [%ROWTYPE](https://github.com/MarinaArh/Oracle_cheat_sheets/blob/master/1Z0-149/RowtypeAttribute.sql) attributes
+ * [Recognize valid and invalid identifiers](https://github.com/MarinaArh/Oracle_cheat_sheets/blob/master/1Z0-149/identifiers.sql)
+ * [List the uses of variables](https://github.com/MarinaArh/Oracle_cheat_sheets/blob/master/1Z0-149/WhereIsVariablesUsed.sql), [declare and initialize variables](), use bind variables
+ * List and describe various data types using the [%TYPE](https://github.com/MarinaArh/Oracle_cheat_sheets/blob/master/1Z0-149/TypeAttribute.sql) and [%ROWTYPE](https://github.com/MarinaArh/Oracle_cheat_sheets/blob/master/1Z0-149/RowtypeAttribute.sql) attributes
+
+ **2. Writing Executable Statements**
+ * Identify lexical units in a PL/SQL block
+ * Use built-in SQL functions in PL/SQL and sequences in PL/SQL expressions
+ * Describe when implicit conversions take place and when explicit conversions have to be dealt with
+ * Write nested blocks and qualify variables with labels
+ * Write readable code with appropriate indentation
 
  **2. Writing SQL in PL/SQL**
 * Create PL/SQL executable blocks using DML and transaction control statements
@@ -18,34 +25,34 @@ https://education.oracle.com/oracle-database-19c-program-with-pl-sql/pexam_1Z0-1
 * Describe the differences among records, collections, and collections of records
 * Initialize collections and records
 
-**4. Handling Exceptions**
+ **4. Handling Exceptions**
 * Define PL/SQL exceptions
 * Recognize unhandled exceptions
 * Handle different types of exceptions (internally defined exceptions, predefined exceptions and user-defined exceptions)
 * Propagate exceptions
 
-**6. Using PL/SQL Subprograms**
+ **6. Using PL/SQL Subprograms**
 Differentiate between anonymous blocks and subprograms
 Create a simple procedure and invoke it from an anonymous block
 Identify benefits of subprograms
 
-**5. Creating Procedures and Using Parameters**
+ **5. Creating Procedures and Using Parameters**
 * Create a procedure with parameterrs
 * Use named notation
 * Work with procedures (create, invoke and remove procedures)
 * Handle exceptions in procedures and display a procedure's information
 
-**7. Creating Functions**
+ **7. Creating Functions**
 * Differentiate between a procedure and a function
 * Describe the uses of functions
 * Work with functions (create, invoke and remove functions)
 
-**6. Creating Packages**
+ **6. Creating Packages**
 * Identify the benefits and the components of packages
 * Work with packages (create package specification and body, invoke package subprograms, remove a package and display package information)
 * Overload package subprograms and use forward declarations
 
-**7. Using Dynamic SQL**
+ **7. Using Dynamic SQL**
 Describe the execution flow of SQL statements
 Use Native Dynamic SQL (NDS)
 Bind PL/SQL types in SQL statements
@@ -58,12 +65,6 @@ Describe and use conditional compilation
 Code-based access control: granting roles to program units
 Whitelist code access with the ACCESSIBLE BY clause
 Mark code as deprecated
-Writing Executable Statements
-Identify lexical units in a PL/SQL block
-Use built-in SQL functions in PL/SQL and sequences in PL/SQL expressions
-Describe when implicit conversions take place and when explicit conversions have to be dealt with
-Write nested blocks and qualify variables with labels
-Write readable code with appropriate indentation
 Writing Control Structures
 Identify the uses and types of control structures (IF, CASE statements and expressions)
 Construct and identify loop statements
